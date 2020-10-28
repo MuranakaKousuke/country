@@ -17,10 +17,10 @@ import { COLOR, FONT_FAMILY } from '../../constants';
 //
 const StyledText = styled.span`
   font-family: ${FONT_FAMILY};
-  display: ${(display) => display};
-  font-size: ${(fontSize) => fontSize};
-  font-weight: ${(fontWeight) => fontWeight};
-  color: ${(color) => color};
+  display: ${({display}) => display};
+  font-size: ${({fontSize}) => fontSize};
+  font-weight: ${({fontWeight}) => fontWeight};
+  color: ${({color}) => color};
 `
 
 // -----------------------------------------------
